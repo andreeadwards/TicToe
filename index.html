@@ -1,0 +1,51 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8" >
+	<meta name="HandheldFriendly" content="True">
+	<meta name="MobileOptimized" content="320">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<link rel="apple-touch-icon" sizes="120x120" href="TicToe.png">
+    <title>YourGame</title>
+    <link rel="stylesheet" type="text/css" href="tictoe.css">
+    <script type="text/javascript" src="tictoe.js"></script>
+</head>
+<body>
+
+
+
+
+<div>
+<table >
+  <tr >
+    <td id="cell_0_0" class="cell" onClick="clickCell(0,0);"></td>
+    <td id="cell_0_1" class="cell" onClick="clickCell(0,1);"></td>
+    <td id="cell_0_2" class="cell" onClick="clickCell(0,2);"></td>
+  </tr>
+    <tr>
+    <td id="cell_1_0" class="cell" onClick="clickCell(1,0);"></td>
+    <td id="cell_1_1" class="cell" onClick="clickCell(1,1);"></td>
+    <td id="cell_1_2" class="cell" onClick="clickCell(1,2);"></td>
+  </tr>
+    <tr>
+    <td id="cell_2_0" class="cell" onClick="clickCell(2,0);"></td>
+    <td id="cell_2_1" class="cell" onClick="clickCell(2,1);"></td>
+    <td id="cell_2_2" class="cell" onClick="clickCell(2,2);"></td>
+  </tr>
+  </table>
+	<br/>
+  </div>
+	<input type=button id="reset" onClick="reset();" value="Try again!" >
+   <br/>
+	<p class ="player" ><img src ="happy.png" width ='80' height='80' ></p> <p class="player" ><img src="sad.png" width ='80' height ='80' ></p>
+	<span id="catScore" class ="Score" >0</span><span id="dogScore" class= "Score" >0</span>
+	<br/>
+		  <div>
+	  <p  id ='logo'> &#9752; Made by EdwardsICS&#174; &#9752; </p>
+	</div>
+		
+
+</body>
+</html>
